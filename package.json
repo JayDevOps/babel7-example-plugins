@@ -1,0 +1,25 @@
+{
+  "name": "nodejs02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js --out-file output.js",
+    "start": "babel index.js --out-file output.js && node output.js",
+    "serve": "node output.js"
+  },
+  "keywords": [],
+  "author": "jaydevops <noreply@jaydevops.com> (https://www.jaydevops.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.2.0",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.2.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
