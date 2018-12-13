@@ -1,18 +1,16 @@
 var _ref, _ref2, _ref3, _, _ref4, _ref5, _ref6, _ref7, _2;
 
-const double = function (n) {
-  return n * 2;
-};
+const double = n => n * 2;
 
-const increment = function (n) {
-  return n + 1;
-};
+const increment = n => n + 1;
 
-const increment3 = function (n) {
-  return n + 3;
-};
+const increment3 = n => n + 3;
 
-console.log('using node 10.x, @babel/core@7.x'); // without pipeline operator
+console.log('using node 10.x, @babel/core@7.x');
+console.log('npm i -D @babel/cli @babel/core @babel/present-env');
+console.log('npm i -D @babel/plugin-transform-arrow-functions'); // this is not needed for node 10.x
+
+console.log('npm i -D @babel/plugin-proposal-pipeline-operator'); // without pipeline operator
 
 const ap = double(increment(double(double(5)))); // 42
 
