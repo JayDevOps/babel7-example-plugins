@@ -31,3 +31,5 @@ https://github.com/tc39/proposal-decorators
 
 https://github.com/tc39/proposal-decorators
 
+# JavaScript ECMAScript ECMAScript Next ESNext ES2018
+http://www.wirfs-brock.com/allen/posts/778
